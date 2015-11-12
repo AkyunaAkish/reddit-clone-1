@@ -1,0 +1,29 @@
+/*@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+
+.myrow {
+    font-size: 0;
+}
+.myrow > * {
+    float: none;
+    display: inline-block;
+    font-size: 14px;  if using LESS it's quicker to just use @font-size-base 
+}
+.myrow > *:last-child {
+    vertical-align: bottom;
+}
+.myrow p:last-child {
+    margin-bottom: 0; /* optional */
+}
+
+/*img {
+  max-width: 100%;
+  display: inline-block;
+}*/
+
+/*.newForm.ng-enter {
+  animation: fadeIn 1s;
+}
+
+.newForm.ng-leave {
+  animation: fadeOut 1s;
+}*/
