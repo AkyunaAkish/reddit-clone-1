@@ -1,6 +1,6 @@
-/*@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
 
-.myrow {
+/*.myrow {
     font-size: 0;
 }
 .myrow > * {
@@ -12,13 +12,21 @@
     vertical-align: bottom;
 }
 .myrow p:last-child {
-    margin-bottom: 0; /* optional */
+    margin-bottom: 0;  optional 
+/*/
+
+.inline > * {
+  display: inline;
 }
 
-/*img {
+.myrow {
+  display: inline;
+}
+
+img {
   max-width: 100%;
   display: inline-block;
-}*/
+}
 
 /*.newForm.ng-enter {
   animation: fadeIn 1s;
@@ -26,4 +34,4 @@
 
 .newForm.ng-leave {
   animation: fadeOut 1s;
-}*/
+}
