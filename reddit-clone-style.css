@@ -28,6 +28,14 @@ img {
   display: inline-block;
 }
 
+.positiveVotes {
+  color: green;
+}
+
+.negativeVotes {
+  color: red;
+}
+
 /*.newForm.ng-enter {
   animation: fadeIn 1s;
 }

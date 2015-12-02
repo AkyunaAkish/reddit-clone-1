@@ -2,7 +2,7 @@ angular.module("theRedditClone", [])
   .controller("all", function($scope) {
 
   $scope.posts = [];
-  $scope.post = {};
+  // $scope.post = {};
 
   $scope.savePost = function(post){
     post.timeAdded = new Date()
@@ -10,7 +10,7 @@ angular.module("theRedditClone", [])
     post.comments = []
     $scope.posts.push(post)
     $scope.post = {}
-    $scope.showForm = !$scope.showForm
+    $scope.showForm = false;
   }
 
   $scope.upvote = function(post){
