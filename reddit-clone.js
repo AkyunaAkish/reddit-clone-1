@@ -1,4 +1,4 @@
-angular.module("theRedditClone", [])
+angular.module("theRedditClone", ['angularMoment'])
   .controller("all", function($scope) {
 
   $scope.posts = [];
