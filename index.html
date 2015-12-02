@@ -81,7 +81,7 @@
                 <span class='inline'>
                   <h5>{{post.title}} | 
                   <span class="glyphicon glyphicon-arrow-up" aria-hidden="true" ng-click="upvote(post)"></span></h5>
-                  <h5><span class="glyphicon glyphicon-arrow-down" aria-hidden="true" ng-click="downvote(post)"></span> {{post.votes}}</h5>
+                  <h5><span class="glyphicon glyphicon-arrow-down" aria-hidden="true" ng-click="downvote(post)"></span><h5 ng-class="{positiveVotes: (post.votes > 0), negativeVotes: (post.votes < 0)}"> {{post.votes}} </h5></h5>
                 </span>
               </div>
               <div class="row">
