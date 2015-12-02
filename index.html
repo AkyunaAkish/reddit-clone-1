@@ -104,11 +104,11 @@
               <form class="form-inline">
                 <div class="form-group">
                   <label class="sr-only" for="commentUsername">username</label>
-                  <input type="text" class="form-control" id="commentUsername" ng-model='comment.commentUsername'>
+                  <input type="text" class="form-control" id="commentUsername" placeholder="username" ng-model='comment.commentUsername'>
                 </div>
                 <div class="form-group">
                   <label class="sr-only" for="formComment">comment</label>
-                  <input type="text" class="form-control" id="formComment" ng-model='comment.comment'>
+                  <input type="text" class="form-control" id="formComment" placeholder="comment" ng-model='comment.comment'>
                 </div>
                 <button type="submit" class="btn btn-default" ng-click="saveComment(comment)">submit</button>
               </form>
@@ -118,7 +118,7 @@
             <div class="col-md-2"></div>
             <div class="col-md-10">
               <div ng-show="showCommentSection">
-                <div ng-repeat="comment in thisPostComments">
+                <div ng-repeat="comment in post.comments">
                   <div class="row" class="inline">
                     <p>{{comment.commentUsername}} - {{comment.comment}}</p>
                   </div>
