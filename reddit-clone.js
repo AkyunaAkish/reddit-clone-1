@@ -1,4 +1,4 @@
-angular.module("theRedditClone", ['angularMoment'])
+angular.module("theRedditClone", ['angularMoment', 'ngAnimate'])
   .controller("all", function($scope) {
 
   $scope.sortType = 'date';
@@ -36,7 +36,6 @@ angular.module("theRedditClone", ['angularMoment'])
     $scope.showCommentSection = !$scope.showCommentSection;
   }
 
-  // The number of comments is correctly pluralized
   // Animate posts as they are added and removed from the search results.
   // Style the app. It should look better than my implementation.
 
