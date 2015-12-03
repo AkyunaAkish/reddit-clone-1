@@ -62,6 +62,29 @@ img {
   color: red;
 }
 
+/*.center-cropped {
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 100px;
+  width: 100px;
+}
+
+/*div.center-cropped {
+  width: 100px;
+  height: 100px;
+  overflow:hidden;
+}
+div.center-cropped img {
+  height: 100%;
+  min-width: 100%;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}*/
+
+
+
+*/
 /*.newForm {
   -webkit-transition:all linear 0.5s;
   transition:all linear 0.5s;
@@ -86,6 +109,11 @@ img {
   animation:slideInRight 0.5s both ease-in;
 }
 
-.commentForm.ng-hide {
+.commentForm.ng-leave {
   animation:slideOutLeft 0.5s both ease-in;
+}
+
+.thumbnail {
+  border-right: 1em;
+  border-left: 1em;
 }
