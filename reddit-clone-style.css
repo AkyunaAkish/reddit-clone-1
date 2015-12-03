@@ -82,10 +82,10 @@ img {
   animation:slideOutLeft 0.3s both ease-in;
 }
 
-.commentForm.ng-enter {
+.commentForm {
   animation:slideInRight 0.5s both ease-in;
 }
 
-.commentForm.ng-leave {
+.commentForm.ng-hide {
   animation:slideOutLeft 0.5s both ease-in;
 }
