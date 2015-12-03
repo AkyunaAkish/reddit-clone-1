@@ -36,9 +36,7 @@ angular.module("theRedditClone", ['angularMoment'])
     $scope.showCommentSection = !$scope.showCommentSection;
   }
 
-  // A user can click to view existing comments on a specific post
   // The number of comments is correctly pluralized
-  // A user can search through posts
   // Animate posts as they are added and removed from the search results.
   // Style the app. It should look better than my implementation.
 
