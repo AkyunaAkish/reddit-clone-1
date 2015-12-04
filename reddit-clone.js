@@ -6,7 +6,6 @@ angular.module("theRedditClone", ['angularMoment', 'ngAnimate'])
   $scope.searchPosts = '';
 
   $scope.posts = [];
-  // $scope.post = {};
 
   $scope.savePost = function(post){
     post.timeAdded = new Date()
@@ -35,8 +34,5 @@ angular.module("theRedditClone", ['angularMoment', 'ngAnimate'])
     $scope.thisPostComments = this.post.comments;
     $scope.showCommentSection = !$scope.showCommentSection;
   }
-
-  // Animate posts as they are added and removed from the search results.
-  // Style the app. It should look better than my implementation.
 
 })

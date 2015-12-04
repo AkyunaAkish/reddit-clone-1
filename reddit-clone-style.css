@@ -62,40 +62,22 @@ img {
   color: red;
 }
 
-/*.center-cropped {
-  object-fit: none; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
-  height: 100px;
-  width: 100px;
+
+.ng-enter { 
+  animation: slideInRight 1s both ease-in; z-index: 8888; 
 }
 
-/*div.center-cropped {
-  width: 100px;
-  height: 100px;
-  overflow:hidden;
-}
-div.center-cropped img {
-  height: 100%;
-  min-width: 100%;
-  left: 50%;
-  position: relative;
-  transform: translateX(-50%);
-}*/
-
-
-
-*/
-/*.newForm {
-  -webkit-transition:all linear 0.5s;
-  transition:all linear 0.5s;
+.ng-leave { 
+  animation: slideOutLeft 0.5s both ease-in; z-index: 9999; 
 }
 
-.newForm.ng-hide {
-  opacity:0;
-}*/
+.thePost {
+  animation: slideInRight 1s both ease-in; z-index: 8888;
+}
 
-.ng-enter           { animation: slideInUp 1s both ease-in; z-index: 8888; }
-.ng-leave           { animation: slideOutLeft 0.5s both ease-in; z-index: 9999; }
+.thePost.ng-hide {
+  animation: slideOutLeft 0.5s both ease-in; z-index: 9999;
+}
 
 .newForm {
   animation:slideInRight 0.5s both ease-in;
@@ -113,7 +95,3 @@ div.center-cropped img {
   animation:slideOutLeft 0.5s both ease-in;
 }
 
-.thumbnail {
-  border-right: 1em;
-  border-left: 1em;
-}
